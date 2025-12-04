@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Planner</title>
+
+<style>
+
+    body {
+        font-family: "Poppins", sans-serif;
+        background: #fbf9f4;
+        padding: 40px;
+        color: #4a4a4a;
+    }
+
+    .title {
+        font-size: 42px;
+        text-align: center;
+        font-weight: 500;
+        color: #6d5b4f;
+        font-family: cursive;
+        margin-bottom: 20px;
+    }
+
+    .layout {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 30px;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .schedule-box {
+        background: #ffffff;
+        padding: 25px;
+        border-radius: 16px;
+        border: 2px solid #f1ede7;
+    }
+
+    .section-title {
+        font-size: 24px;
+        font-family: cursive;
+        margin-bottom: 15px;
+        color: #6b5f4d;
+    }
+
+    .time-grid {
+        border-top: 2px dashed #ece7de;
+        margin-top: 10px;
+    }
+
+    .row {
+        padding: 10px 0;
+        border-bottom: 2px dashed #f2eee8;
+    }
+
+    .time {
+        width: 120px;
+        color: #7d7568;
+        font-size: 15px;
+        font-family: cursive;
+    }
+
+    .task {
+        font-size: 20px;
+        font-family: cursive;
+        color: #4a4a4a;
+    }
+
+    .side-card {
+        background: #fff8c9;
+        padding: 25px;
+        border-radius: 14px;
+        border: 2px dashed #e0d9b8;
+        height: max-content;
+    }
+
+    .todo-box {
+        background: #def3d9;
+        border-radius: 14px;
+        padding: 20px;
+        border: 2px solid #bfdcba;
+    }
+
+    ul {
+        font-size: 17px;
+        font-family: cursive;
+        padding-left: 20px;
+    }
+
+    .hobb {
+        margin-bottom: 12px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="title">Daily Plan</div>
+
+<div class="layout">
+
+    <div class="schedule-box">
+        <div class="section-title">Today's Schedule</div>
+
+        <div class="time-grid">
+            <ol>
+            <li class="row">
+                <div class="task">Wake Up</div>
+                <div class="time">7:00-7:15 AM</div>
+            </li>
+            <li class="row">
+                <div class="task">Family Time</div>
+                <div class="time">7:15-7:30 AM</div>
+            </li>
+            <li class="row">
+                <div class="task">Study Session-1</div>
+                <div class="time">7:30-8:15 AM</div>
+            </li>
+            <li class="row">
+                <div class="task">Breakfast & Get Ready for class</div>
+                <div class="time">8:15-8:50 AM</div>   
+            </li>
+            <li class="row">
+                <div class="task">College Time</div>
+                <div class="time">9:00-6:45 PM</div>               
+            </li>
+            <li class="row">
+                <div class="task">Snacks & Freshen up</div>
+                <div class="time">6:45-7:00 PM</div>
+            </li>
+            <li class="row">
+                <div class="task">Family Time</div>
+                <div class="time">7:00-7:30 PM</div>               
+            </li>
+            <li class="row">
+                <div class="task">Study Session-2</div>
+                <div class="time">7:30-10:00 PM</div>               
+            </li>
+            <li class="row">
+                <div class="task">Dinner</div>
+                <div class="time">10:00-10:30 PM</div>
+            </li>
+            <li class="row">
+                <div class="task">Study Session-3</div>
+                <div class="time">10:30-12:00 PM</div>
+            </li>
+            <li class="row">
+                <div class="task">Sivi</div>
+                <div class="time">12:00-12:30 AM</div>
+            </li>
+            <li class="row">
+                <div class="task">Study Session-4</div>
+                <div class="time">12:30-2:30 AM</div>
+            </li>
+            </ol>
+            </div>
+        </div>
+
+    <div class="side-card">
+        <div class="section-title">My Hobbies & Interests</div>
+
+        <div class="todo-box">
+            <ul>
+                <li class="hobb">Reading Manhwas & Mangas</li>
+                <li class="hobb">Coding</li>
+                <li class="hobb">Listening to Music</li>
+                <li class="hobb">Singing Songs</li>
+                <li class="hobb">Watching Animes and Dramas</li>
+                <li class="hobb">Playing Games</li>
+                <li class="hobb">Nature Walks</li>
+            </ul>
+            </div>
+        </div>
+</div>
+
+</body>
+</html>
